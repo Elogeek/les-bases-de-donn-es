@@ -5,6 +5,6 @@ class ClientsStatic {
 
     public function getClients() {
         //la fct va aller chercher les utilisateurs en base de données
-        $this->dblink = dbStatic::getLink();
+        $this->dblink = dbStatic::getInstance();
     }
 }

@@ -1,5 +1,5 @@
 <?php
-class DB {
+class DB2 {
     //déclaration des propriétés
     private string $server;
     private string $db;

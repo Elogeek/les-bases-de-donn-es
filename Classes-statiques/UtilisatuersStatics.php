@@ -6,6 +6,6 @@ class UtilisateursStatics {
 
     public function getUtilisateurs() {
         //la fct va aller chercher les utilisateurs en base de données
-        $this->dblink = dbStatic::getInstance();
+        $this->dblink = DB::getInstance();
     }
 }
